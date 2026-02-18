@@ -5,6 +5,9 @@ class Animal:
 
     def speak(self) -> str:
         return f"{self.name} says {self.sound}!"
+    
+    def roar(self) -> str:
+        return f"Rooaaar"
 
     def __repr__(self) -> str:
         return f"Animal(name={self.name!r}, sound={self.sound!r})"
