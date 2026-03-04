@@ -19,3 +19,7 @@ if __name__ == "__main__":
 
     print(dog.speak())
     print(cat.speak())
+
+    x=5
+    y=6
+    print x+5
